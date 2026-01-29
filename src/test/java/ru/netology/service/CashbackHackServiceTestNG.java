@@ -16,6 +16,6 @@ public class CashbackHackServiceTestNG {
     public void testRemain_ExactBoundary() {
         CashbackHackService service = new CashbackHackService();
         int result = service.remain(1000);
-        assertEquals(result, 1000, "Should return 0 for exact 1000 rubles");
+        assertEquals(result, 0, "Should return 0 for exact 1000 rubles");
     }
 }
